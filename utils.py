@@ -15,7 +15,7 @@ def chat_inference(query: str, model_choice: str) -> str:
         os.environ["PINECONE_API_KEY"] = "sensitave data"
         os.environ["REPLICATE_API_TOKEN"] = "sensitave data"
 
-        pinecone = Pinecone(api_key="b6fafa8d-73ee-4692-8a9f-c6d877d214e9")
+        pinecone = Pinecone(api_key="sensitave data")
        
         #Prompt
         prompt = PromptTemplate(
