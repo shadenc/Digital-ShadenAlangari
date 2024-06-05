@@ -6,7 +6,7 @@ from pinecone import Pinecone
 import requests
 from bs4 import BeautifulSoup
 
-os.environ["OPENAI_API_KEY"] = "sk-proj-ZvvRmuGFJ7dYRpxM6KrMT3BlbkFJpIvGSadlG5RAVA8xITl9"
+os.environ["OPENAI_API_KEY"] = "sensitave data"
 
 def scrape_data(url):
         # Fetch the content of the URL

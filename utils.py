@@ -11,9 +11,9 @@ from langchain_community.llms import Replicate
 
 def chat_inference(query: str, model_choice: str) -> str:
     try:
-        os.environ["OPENAI_API_KEY"] = "sk-proj-ZvvRmuGFJ7dYRpxM6KrMT3BlbkFJpIvGSadlG5RAVA8xITl9"
-        os.environ["PINECONE_API_KEY"] = "b6fafa8d-73ee-4692-8a9f-c6d877d214e9"
-        os.environ["REPLICATE_API_TOKEN"] = "r8_UuG5dRolwKSVEwf5LYNYArJe2fNDeF63aMeu1"
+        os.environ["OPENAI_API_KEY"] = "sensitave data"
+        os.environ["PINECONE_API_KEY"] = "sensitave data"
+        os.environ["REPLICATE_API_TOKEN"] = "sensitave data"
 
         pinecone = Pinecone(api_key="b6fafa8d-73ee-4692-8a9f-c6d877d214e9")
        
