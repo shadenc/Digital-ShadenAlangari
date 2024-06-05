@@ -23,7 +23,7 @@ def scrape_data(url):
 
 def main(urls):
     index_name = "chatbot"
-    pinecone = Pinecone(api_key="b6fafa8d-73ee-4692-8a9f-c6d877d214e9")
+    pinecone = Pinecone(api_key="sensitave data")
     embedding_model = OpenAIEmbeddings(model="text-embedding-3-small", dimensions=1536)
 
     index = pinecone.Index(index_name)
